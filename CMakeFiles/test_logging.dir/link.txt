@@ -1,0 +1,1 @@
+/usr/bin/c++   -O0 -ggdb -std=c++17 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined  -rdynamic CMakeFiles/test_logging.dir/test/test_logging.cpp.o  -o bin/test_logging  -Wl,-rpath,/home/alfmunny/Projects/EVA02/lib lib/libeva02.so 

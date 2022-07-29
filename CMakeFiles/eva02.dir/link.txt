@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -O0 -ggdb -std=c++17 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined  -shared -Wl,-soname,libeva02.so -o lib/libeva02.so CMakeFiles/eva02.dir/src/logging.cpp.o 

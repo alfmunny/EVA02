@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/alfmunny/Projects/EVA02",
+  "command": "/usr/bin/c++   -I/home/alfmunny/Projects/EVA02/.   -O0 -ggdb -std=c++17 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined   -o CMakeFiles/test_logging.dir/test/test_logging.cpp.o -c /home/alfmunny/Projects/EVA02/test/test_logging.cpp",
+  "file": "/home/alfmunny/Projects/EVA02/test/test_logging.cpp"
+},
+{
+  "directory": "/home/alfmunny/Projects/EVA02",
+  "command": "/usr/bin/c++  -Deva02_EXPORTS -I/home/alfmunny/Projects/EVA02/.   -O0 -ggdb -std=c++17 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -fPIC   -o CMakeFiles/eva02.dir/src/logging.cpp.o -c /home/alfmunny/Projects/EVA02/src/logging.cpp",
+  "file": "/home/alfmunny/Projects/EVA02/src/logging.cpp"
+}
+]

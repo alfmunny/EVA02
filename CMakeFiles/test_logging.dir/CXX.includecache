@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alfmunny/Projects/EVA02/test/test_logging.cpp
+src/logging.h
+/home/alfmunny/Projects/EVA02/test/src/logging.h
+iostream
+-
+
+src/logging.h
+string
+-
+memory
+-
+list
+-
+
