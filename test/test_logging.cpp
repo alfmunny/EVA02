@@ -14,9 +14,13 @@ int main() {
 
     auto logger = std::make_shared<Logger>();
     auto appender = std::make_shared<StdOutLogAppender>();
+
+
     logger->addAppender(appender);
-    logger->log(LogLevel::INFO, std::make_shared<LogEvent>("hello log"));
-    logger->debug(std::make_shared<LogEvent>("hello log"));
-    logger->info(std::make_shared<LogEvent>("hello log"));
+
+
+    //logger->setLevel(LogLevel::INFO);
+    // New log event 
+    logger->debug(std::make_shared<LogEvent>(logger, "debug hello log", LogLevel::DEBUG, __FILE__, __LINE__, time(0)));
     return 0;
 }
